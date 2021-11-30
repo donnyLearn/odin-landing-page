@@ -1,0 +1,175 @@
+* {
+	/*border: 2px red solid;*/
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header,
+.firstPart,
+.fourthPart {
+	padding-left: 180px;
+	padding-right: 180px;
+}
+.secondPart,
+.thirdPart {
+	padding-left: 300px;
+	padding-right: 300px;
+} 
+
+/*================================================*/
+
+.header,
+.firstPart {
+	background-color: #1F2937;
+}
+
+.header {
+	font-size: 24px;
+	font-weight: bolder;
+	color: #F9FAF8;
+	display: flex;
+	justify-content: space-between;
+}
+.nav ul{
+	display: flex;
+	flex-direction: row;
+}
+.nav li {
+	width: 100px;
+	list-style-type: none;
+}
+.nav li a {
+	font-size: 12px;
+	text-decoration: none;
+}
+
+/*===============================================*/
+
+.firstPart {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.firstPart .text {
+	width: 40%;
+}
+.firstPart h1 {
+	font-size: 48px;
+	font-weight: bolder;
+	color: #F9FAF8
+}
+.firstPart p,
+.nav a {
+	font-size: 18px;
+	color: #B5B7BB;
+}
+.firstPart img {
+	width: 50%;
+	max-height: 240px;
+}
+.firstPart button {
+	margin-top: 10px;
+	height: 30px;
+	width: 100px;
+	color: white;
+	border-radius: 8px;
+	border: none;
+}
+
+.firstPart button,
+.fourthPart .container {
+	background-color: #3882F6;
+
+}
+
+
+/*==============================================*/
+
+.secondPart {
+	text-align: center;
+	padding-bottom: 100px;
+}
+.secondPart h3 {
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1F2937;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+.info p{
+	width: 180px;
+	padding-top: 10px;
+}
+.secondPart img {
+	border: 5px solid #3882F6;
+	border-radius: 20px;
+	height: 180px;
+	width: 180px;
+}
+
+/*==============================================*/
+.thirdPart {
+	background-color: #E5E7EB;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.quote {
+	font-size: 36px;
+	font-weight: 100;
+	font-style: italic;
+	color: #1F2937;
+	text-align: justify;
+}
+
+.quoteName {
+	text-align: right;
+	font-weight: bold;
+	/*padding-right: 150px;*/
+}
+
+/*==============================================*/
+
+.fourthPart {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.fourthPart .container {
+	padding-left: 120px;
+	padding-right: 120px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 10px;
+	color: white;
+	font-size: 24px;
+	align-items: center;
+}
+.fourthPart p {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+.fourthPart button {
+	width: 120px;
+	height: 30px;
+	color: white;
+	background-color: #3882F6;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+
+
+/*==============================================*/
+.footer {
+	text-align: center;
+	color: #E5E7EB;
+	background-color: black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
